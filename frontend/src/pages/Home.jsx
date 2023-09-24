@@ -1,7 +1,11 @@
+import Homeposts from '../components/Homeposts';
+
 const Home = () => {
   return (
-    <div>
-      <h3>Home</h3>
+    <div className='px-8 md:px-[200px]'>
+      <Homeposts />
+      <Homeposts />
+      <Homeposts />
     </div>
   );
 };
