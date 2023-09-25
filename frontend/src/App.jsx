@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import PostDetails from './pages/PostDetails';
+import CreatePost from './pages/CreatePost';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/write' element={<CreatePost />} />
         <Route path='/posts/post/:id' element={<PostDetails />}></Route>
       </Routes>
     </div>
